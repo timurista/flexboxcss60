@@ -1,1 +1,8 @@
 /* Grid variables */
+.row {
+    display: flex;
+}
+
+@define-function size($val) {
+    @return calc(100% / 60 * $val)
+}

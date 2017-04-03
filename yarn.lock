@@ -1003,12 +1003,27 @@ postcss-calc@^5.3.1:
     postcss-message-helpers "^2.0.0"
     reduce-css-calc "^1.2.6"
 
+postcss-define-function@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/postcss-define-function/-/postcss-define-function-0.1.1.tgz#f39a3937267c06750c75f5ecaf886de934139bcd"
+  dependencies:
+    postcss "^5.2.6"
+
 postcss-js@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-0.2.0.tgz#56e6db0cd910a6dffec3dfb34462693ac72e3882"
   dependencies:
     camelcase-css "^1.0.1"
     postcss "^5.2.6"
+
+postcss-load-config@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-load-config/-/postcss-load-config-1.0.0.tgz#1399f60dcd6bd9c3124b2eb22960f77f9dc08b3d"
+  dependencies:
+    cosmiconfig "^2.1.0"
+    object-assign "^4.1.0"
+    postcss-load-options "^1.0.2"
+    postcss-load-plugins "^2.0.0"
 
 postcss-load-config@^1.2.0:
   version "1.2.0"
@@ -1019,14 +1034,14 @@ postcss-load-config@^1.2.0:
     postcss-load-options "^1.2.0"
     postcss-load-plugins "^2.3.0"
 
-postcss-load-options@^1.2.0:
+postcss-load-options@^1.0.2, postcss-load-options@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/postcss-load-options/-/postcss-load-options-1.2.0.tgz#b098b1559ddac2df04bc0bb375f99a5cfe2b6d8c"
   dependencies:
     cosmiconfig "^2.1.0"
     object-assign "^4.1.0"
 
-postcss-load-plugins@^2.3.0:
+postcss-load-plugins@^2.0.0, postcss-load-plugins@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/postcss-load-plugins/-/postcss-load-plugins-2.3.0.tgz#745768116599aca2f009fad426b00175049d8d92"
   dependencies:

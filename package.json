@@ -6,7 +6,7 @@
   "main": "dist/flexboxgrid60.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp gulpfile.js"
+    "build": "gulp css"
   },
   "repository": {
     "type": "git",
@@ -28,8 +28,11 @@
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.4.0",
     "gulp-uglify": "^2.1.2",
+    "gulp-uglifycss": "^1.0.8",
     "postcss": "^5.2.16",
     "postcss-calc": "^5.3.1",
+    "postcss-define-function": "^0.1.1",
+    "postcss-load-config": "1.0.0",
     "postcss-mixins": "^5.4.1",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^3.1.0"

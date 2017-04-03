@@ -2,9 +2,10 @@
   "name": "flexboxgrid60",
   "version": "1.0.0",
   "description": "A flexbox grid css layout using 60 instead of 12 units",
+  "style": "dist/flexboxgrid.css",
   "main": "dist/flexboxgrid60.css",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

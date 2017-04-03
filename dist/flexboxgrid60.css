@@ -1,1 +1,4 @@
-.row{display:flex}
+/* Grid variables */
+.row {
+    display: flex;
+}

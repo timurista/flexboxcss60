@@ -8,6 +8,7 @@ Grid property was introduced as a feature of CSS in css3 and a number of package
 This packages uses gulp to run node process to build the css file you will import into your package. You can just grab it from `dist/grid.css` or you can run `gulp build` to build it yourself.
 
 ## Documentation
+- [Css Grid Intro](documentation/gridIntro.md)
 - [Example 1](#)
 - [Example 2](#)
 

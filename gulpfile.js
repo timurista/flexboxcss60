@@ -10,6 +10,6 @@ gulp.task('css', function () {
         .pipe(postcss())
         .pipe(gulp.dest('./dist'))
         .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(rename('flexboxgrid60.min.css'))
+        .pipe(rename('grid.min.css'))
         .pipe(gulp.dest('./dist'));
 });

@@ -13,9 +13,8 @@
     "url": "git+https://github.com/timurista/flexboxgrid60.git"
   },
   "keywords": [
-    "flexboxgrid",
-    "60",
-    "flexbox"
+    "grid",
+    "css"
   ],
   "author": "Tim Urista",
   "license": "MIT",

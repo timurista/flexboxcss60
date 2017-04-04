@@ -11,6 +11,7 @@ This packages uses gulp to run node process to build the css file you will impor
 - [Css Grid Intro](documentation/gridIntro.md)
 - [Example 1](#)
 - [Example 2](#)
+- [Grid Complete Guide](https://tympanus.net/codrops/css_reference/grid/)
 
 ## Extra Resources
 todo

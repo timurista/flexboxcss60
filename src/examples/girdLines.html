@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link href="dist/grid.css" rel="stylesheet" />
+        <style>
+           .grid-container {
+                display: grid;
+                grid-template-columns: 150px 150px 150px;
+                grid-template-rows: 150px 150px;
+            }
+
+            .item {
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                background-color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Example</h1>
+
+        <div class="row">
+            <div class="grid">
+                <div class="item">.item</div>
+            </div>
+        </div>
+    </body>
+</html>
